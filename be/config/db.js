@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 // Nyambungin db ke BE
-const db = new Sequelize("docker", "root", "", {
+const db = new Sequelize("TCC1", "root", "", {
   host: "35.222.231.165",
   dialect: "mysql",
 });
